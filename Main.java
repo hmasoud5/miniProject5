@@ -12,7 +12,7 @@ class Main {
     checkIn(name);
 
   }
-  //method called checkIn
+  //method called checkIn 
   static void checkIn(String name) 
   {
     String[] names = new String[5];
