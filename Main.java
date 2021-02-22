@@ -12,7 +12,6 @@ class Main {
     checkIn(name, index);
     //calling checkIn method back into main method 
     
-
   }
 
   // method called checkIn
