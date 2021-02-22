@@ -30,7 +30,7 @@ class Main {
        //calling checkIn method until it returns true
       return checkIn(name, index);
     }else{
-      System.out.println("Sorry, it looks like your name is not on the list. Register if you are a new patient or make an appointment here now."); 
+      System.out.println("Sorry, it looks like your name is not on the list. Register if you are a new patient or make an appointment here now!"); 
       return false;
     } 
 }
