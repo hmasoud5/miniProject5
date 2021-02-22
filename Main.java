@@ -20,19 +20,19 @@ class Main {
   {
     String[] names = {"Bella", "Journey", "Neveah"};
     //array of name elements
-    if (name == names[index]){
+    if (name.equals( names[index])){
      System.out.println("Yay! You're checked in. ");
      //if the name is equal to the index of the name then print out this statement
      return true;
-    }else{
+    }else if(index < names.length - 1)
+    {
+        //add 1 to the index until names equals to index
       index++;
-      //add 1 to the index until names equals to index
-      checkIn(name, index);
-      //calling checkIn method until it returns true
-    } 
-    if(index < names.length){
-      index = 1; 
-      checkIn(name, index);
+       //calling checkIn method until it returns true
+      return checkIn(name, index);
+    }else{
+      System.out.println("Sorry, it looks like your name is not on the list."); 
+      return false;
     } 
 }
 }
