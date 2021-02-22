@@ -18,7 +18,7 @@ class Main {
   static boolean checkIn(String name, int index) 
   {
     String[] names = {"Bella", "Journey", "Neveah"};
-    if (name = names[index]){
+    if (name == names[index]){
      System.out.println("Yay! You're checked in. ");
      return true;
     }else{
@@ -27,7 +27,7 @@ class Main {
     } 
     if(index < names.length){
       index = 1; 
-      checkIn(name, index); 
+      checkIn(name, index);
     } 
 }
 }
