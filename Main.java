@@ -18,11 +18,13 @@ class Main {
   static boolean checkIn(String name, int index) 
   {
     String[] names = {"Bella", "Journey", "Neveah"};
+    //array of name elements
     if (name == names[index]){
      System.out.println("Yay! You're checked in. ");
      return true;
     }else{
       index++;
+      //add 1 to the index until names equals to index
       checkIn(name, index);
     } 
     if(index < names.length){
