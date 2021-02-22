@@ -10,6 +10,7 @@ class Main {
     // saving and recieving name into type string
     int index = 0;
     checkIn(name, index);
+    //calling checkIn method back into main method 
     
 
   }
@@ -27,6 +28,7 @@ class Main {
       index++;
       //add 1 to the index until names equals to index
       checkIn(name, index);
+      //calling checkIn method until it returns true
     } 
     if(index < names.length){
       index = 1; 
