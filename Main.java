@@ -21,6 +21,7 @@ class Main {
     //array of name elements
     if (name == names[index]){
      System.out.println("Yay! You're checked in. ");
+     //if the name is equal to the index of the name then print out this statement
      return true;
     }else{
       index++;
